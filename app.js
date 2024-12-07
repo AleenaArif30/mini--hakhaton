@@ -14,7 +14,7 @@ let signup = () => {
             console.log(user)
 
             setTimeout(() => {
-                window.location.href = "./dashboard.html"
+                window.location.href = "./index2.html"
             }, 3000)
             alert("login success")
 
@@ -57,10 +57,8 @@ sign_up.addEventListener("click", signup)
 
 onAuthStateChanged(auth, (user) => {
     if (user) {
-        // User is signed in, see docs for a list of available properties
-        // https://firebase.google.com/docs/reference/js/auth.user
         console.log(user)
-        window.location.href = "./dashboard.html"
+        window.location.href = "./index2.html"
         // ...
     } else {
         // User is signed out

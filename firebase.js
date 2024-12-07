@@ -1,6 +1,6 @@
 import { initializeApp } from "https://www.gstatic.com/firebasejs/11.0.2/firebase-app.js";
 import { getAuth,createUserWithEmailAndPassword,signInWithEmailAndPassword,onAuthStateChanged ,sendEmailVerification ,signOut,signInWithPopup, GoogleAuthProvider } from "https://www.gstatic.com/firebasejs/11.0.2/firebase-auth.js";
-import { getFirestore , collection, addDoc, getDocs } from "https://www.gstatic.com/firebasejs/11.0.2/firebase-firestore.js";;
+import { getFirestore , collection, addDoc, getDocs,deleteDoc,doc,query,orderBy,serverTimestamp } from "https://www.gstatic.com/firebasejs/11.0.2/firebase-firestore.js";;
 
 const firebaseConfig = {
     apiKey: "AIzaSyDyjsCH9gMOYTQNp5I6UpNf6l2_m5z46-s",
@@ -21,7 +21,7 @@ const firebaseConfig = {
 
   
 
-  export{auth,createUserWithEmailAndPassword,signInWithEmailAndPassword,onAuthStateChanged,sendEmailVerification,signOut,signInWithPopup, GoogleAuthProvider,provider ,db, collection, addDoc, getDocs } 
+  export{auth,createUserWithEmailAndPassword,signInWithEmailAndPassword,onAuthStateChanged,sendEmailVerification,signOut,signInWithPopup, GoogleAuthProvider,provider ,db, collection, addDoc, getDocs,deleteDoc,doc,query,orderBy,serverTimestamp,getAuth } 
 
 
   
