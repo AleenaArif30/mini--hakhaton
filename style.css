@@ -293,3 +293,9 @@ font-weight: bolder;
     background-color: #80aaff;
     border-radius: 50%;
 }
+
+#logout{
+position: absolute;
+top: 10px;
+left: 10px;
+}

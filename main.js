@@ -220,7 +220,7 @@ let addPost = async () => {
 onAuthStateChanged(auth, async (user) => {
     if (!user) {
         console.log(user)
-        window.location.href = "./index.html"
+        window.location.href = "./index1.html"
         // ...
     } else {        console.log("you are log in",user)
     
